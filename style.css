@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(90deg,rgb(255, 0, 255), blue);
+    display: flex;
+    justify-content: center;
+}
+
+.container_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+}
+
+#campoTexto {
+    width: 25em;
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+.tarefas_disponiveis_style {
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 31em;
+    padding: 1em 20px;
+    margin-top: 3em;
+    border-radius: 8px;
+}
+
+.campo_tarefa {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.botao_adicionar {
+    width: 5em;
+    height: 2em;
+    color: white;
+}
