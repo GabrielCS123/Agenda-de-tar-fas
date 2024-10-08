@@ -9,6 +9,7 @@ function adicionarTarefa() {
     }
 
     tarefa = document.getElementById('campoTexto').value
+    document.getElementById('campoTexto').value = ""
 
     var novoParagrafo = document.createElement('p')
     novoParagrafo.setAttribute('class', 'texto_tarefa')
